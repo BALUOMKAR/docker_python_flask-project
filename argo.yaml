@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/CloudTechDevOps/Kubernetes.git
+    repoURL: https://github.com/BALUOMKAR/docker_python_flask-project.git
     targetRevision: HEAD
-    path: day-14-argocd
+    path: docker_python_flask-project
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
